@@ -85,6 +85,7 @@ img {
     border-bottom-style: solid;
     border-bottom-color: var(--portfolio-bgc);
     border-bottom-width: 1px;
+    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
   display: flex;
