@@ -49,6 +49,9 @@ img {
     gap: 24px;
     justify-content: center;
 }
+.list-header {
+    gap: 40px;
+}
 .work-list-item {
     flex-basis: calc((100% - 48px) / 3);
   }
@@ -313,7 +316,7 @@ img {
   margin-bottom: 8px;
   
 .scroll-box {
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 
 
 }
