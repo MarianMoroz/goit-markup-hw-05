@@ -310,6 +310,7 @@ img {
   color: var(--navy-blue);
   background-color: var(--white);
   margin-bottom: 8px;
+  padding: 120px 0;
 }
 .scroll-box {
   flex-basis: calc((100%-72px) / 4);
