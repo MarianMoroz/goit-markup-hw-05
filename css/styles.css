@@ -81,6 +81,7 @@ img {
   border-bottom-style: solid;
   border-bottom-color: var(--portfolio-bgc);
   border-bottom-width: 1px;
+  border-bottom: 1px solid #e7e9fc;
   /*  контур елемента 
       outline: 2px solid red;
       outline-offset: -2px; */
@@ -295,6 +296,7 @@ img {
 .logo link {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
 }
 /* ------footer------*/
 
