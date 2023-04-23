@@ -346,5 +346,7 @@ img {
   text-decoration: none;
 }
 .list-main {
-    margin-bottom: 72px
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
 }
