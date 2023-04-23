@@ -51,6 +51,12 @@ img {
   text-decoration: none;
 }
 /* ------header------ */
+.header {
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: var(--portfolio-bgc);
+    border-bottom-width: 1px;
+}
 .header-container {
   display: flex;
   align-items: center;
