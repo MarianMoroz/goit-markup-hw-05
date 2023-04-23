@@ -257,6 +257,7 @@ img {
 .team {
   background-color: var(--cloud);
   padding-top: 120px;
+  padding-bottom: 120px;
   text-transform: capitalize;
 }
 .team-list {
