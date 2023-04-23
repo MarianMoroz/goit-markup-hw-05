@@ -223,7 +223,10 @@ img {
   font-size: 36px;
   color: var(--navy-blue);
   margin-bottom: 72px;
-  padding-bottom: 120px;
+  
+}
+.our-works-section {
+    padding-bottom: 120px;
 }
 
 .subject-team-list {
