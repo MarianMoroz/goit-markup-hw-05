@@ -55,7 +55,8 @@ img {
   display: flex;
 }
 .list-header-port {
-    gap: 40px
+  gap: 40px;
+  display: flex;
 }
 .work-list-item {
   flex-basis: calc((100% - 48px) / 3);
