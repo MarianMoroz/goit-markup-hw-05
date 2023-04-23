@@ -83,7 +83,7 @@ img {
 .header-box {
   background-color: white;
   border-bottom-style: solid;
-  border-bottom-color: var(--portfolio-bgc);
+  border-bottom-color: var(--cornflower);
   border-bottom-width: 1px;
   border-bottom: 1px solid #e7e9fc;
   /*  контур елемента 
@@ -93,7 +93,7 @@ img {
 .header {
   background-color: white;
   border-bottom-style: solid;
-  border-bottom-color: var(--portfolio-bgc);
+  border-bottom-color: var(--cornflower);
   border-bottom-width: 1px;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -305,15 +305,14 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--btn-color);
-  background: var(--light-font);
+  color: var(--iris);
+  background: var(--cloud);
   letter-spacing: 0.04em;
   display: flex;
   align-items: center;
-  border: 1px solid var(--portfolio-bgc);
+  border: 1px solid var(--cornflower);
   border-radius: 4px;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc
 }
 .btn-port:hover,
 .btn-port:focus {
