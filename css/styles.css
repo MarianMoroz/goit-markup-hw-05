@@ -313,6 +313,7 @@ img {
   border: 1px solid var(--portfolio-bgc);
   border-radius: 4px;
   padding: 12px 24px;
+  border: 1px solid #e7e9fc
 }
 .btn-port:hover,
 .btn-port:focus {
