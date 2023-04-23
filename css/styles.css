@@ -353,6 +353,20 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
 }
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--btn-color);
+  background: var(--light-font);
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--portfolio-bgc);
+  border-radius: 4px;
+  padding: 12px 24px;
+}
 .button:hover,
 .button:focus {
   color: var(--white-color);
