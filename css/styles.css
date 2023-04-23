@@ -346,10 +346,17 @@ img {
   text-decoration: none;
 }
 .list-main {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.list-port {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
