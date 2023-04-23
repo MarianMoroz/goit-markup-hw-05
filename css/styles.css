@@ -314,11 +314,17 @@ img {
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc
 }
 .btn-port:hover,
 .btn-port:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  
+
 }
 .subtitle {
   font-weight: 500;
@@ -349,4 +355,5 @@ img {
     margin-bottom: 72px;
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
