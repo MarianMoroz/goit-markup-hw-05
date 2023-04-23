@@ -302,19 +302,26 @@ img {
 
 .btn-port {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--btn-color);
+  background: var(--light-font);
   letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--portfolio-bgc);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .btn-port:hover,
 .btn-port:focus {
   color: var(--white);
   background-color: var(--ocean);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 .subtitle {
   font-weight: 500;
@@ -352,27 +359,4 @@ img {
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
-}
-.button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--btn-color);
-  background: var(--light-font);
-  letter-spacing: 0.04em;
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--portfolio-bgc);
-  border-radius: 4px;
-  padding: 12px 24px;
-}
-.button:hover,
-.button:focus {
-  color: var(--white-color);
-  background-color: var(--hover-btn);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  border: 1px solid transparent;
 }
