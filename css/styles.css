@@ -59,7 +59,8 @@ img {
   display: flex;
 }
 .work-list-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4)
 }
 .link {
   text-decoration: none;
