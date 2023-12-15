@@ -216,6 +216,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  text-align: center;
 }
 
 /* ------what are we doing------ */
@@ -235,13 +236,15 @@ img {
 }
 
 .subject-team-list {
+  color: var(--navy-blue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
   letter-spacing: 0.02em;
-  font-size: 36px;
-  color: var(--navy-blue);
+  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
@@ -250,7 +253,8 @@ img {
   flex-basis: calc((100% - 72px) / 4);
   border: #e7e9fc;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
@@ -337,6 +341,9 @@ img {
   color: var(--navy-blue);
   background-color: var(--white);
   margin-bottom: 8px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
 }
 .scroll-box {
   width: calc((100% - 72px) / 4);
