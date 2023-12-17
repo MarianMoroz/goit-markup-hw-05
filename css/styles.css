@@ -332,11 +332,20 @@ img {
   margin-right: 76px;
 }
 
+.portfolio-header {
+  color: #2e2f42;
+  line-height: 1.11;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
 .section-portfolio {
   padding: 120px 0 120px 0;
 }
 .portfolio-subtitle {
-  margin-bottom: 72px;
+  color: #2e2f42;
+  line-height: 1.2;
+  margin-bottom: 8px;
 }
 .portofolio-ul {
   display: flex;
