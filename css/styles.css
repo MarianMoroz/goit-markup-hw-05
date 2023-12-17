@@ -45,6 +45,7 @@ img {
 }
 
 .list {
+
   display: flex;
   gap: 40px;
   color: #2e2f42;
@@ -186,6 +187,20 @@ img {
   margin: 0 auto 48px auto;
   max-width: 496px;
 }
+.hero-title {
+  max-width: 496px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.0714;
+  letter-spacing: 1.12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
