@@ -336,7 +336,7 @@ img {
   color: #2e2f42;
   line-height: 1.11;
   text-align: center;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .section-portfolio {
@@ -345,7 +345,7 @@ img {
 .portfolio-subtitle {
   color: #2e2f42;
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .portofolio-ul {
   display: flex;
