@@ -127,6 +127,7 @@ img {
   color: var(--iris);
   display: inline-block;
   margin-bottom: 16px;
+  font-weight: 700;
 }
 
 .studiologo {
