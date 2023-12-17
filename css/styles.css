@@ -352,8 +352,12 @@ img {
   border: 1px solid transparent;
 }
 .specials-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.specials-list {
+  display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .subtitle {
