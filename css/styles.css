@@ -46,14 +46,17 @@ img {
 
 .list {
   display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-basis: calc((100% - 72px) / 4);
-}
-.list-header {
   gap: 40px;
-  display: flex;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
+
 .list-header-port {
   gap: 40px;
   display: flex;
