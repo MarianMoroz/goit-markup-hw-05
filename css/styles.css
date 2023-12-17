@@ -132,6 +132,8 @@ img {
   display: inline-block;
   margin-bottom: 16px;
   font-weight: 700;
+  display: inline-block;
+  
 }
 
 .studiologo {
@@ -329,6 +331,29 @@ img {
   margin-bottom: 16px;
   margin-right: 76px;
 }
+
+.section-portfolio {
+  padding: 120px 0 120px 0;
+}
+.portfolio-subtitle {
+  margin-bottom: 72px;
+}
+.portofolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-list {
+  background: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 /* ------footer------*/
 
 .btn-port {
