@@ -58,10 +58,6 @@ img {
   list-style: none;
 }
 
-.menu-item {
-  list-style: none;
-}
-
 .contact-list {
   gap: 40px;
   display: flex;
@@ -177,6 +173,7 @@ img {
   list-style: none;
   display: flex;
   gap: 40px;
+  list-style: none;
 }
 .contact-link {
   font-family: inherit;
