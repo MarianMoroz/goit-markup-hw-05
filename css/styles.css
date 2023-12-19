@@ -315,7 +315,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .list-team {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -360,11 +360,17 @@ img {
 .section-portfolio {
   padding: 120px 0 120px 0;
 }
+
+.portofolio-ul {
+list-style: none;
+}
+
 .portfolio-subtitle {
   color: #2e2f42;
   line-height: 1.2;
   margin-bottom: 8px;
 }
+
 .portofolio-ul {
   display: flex;
   flex-wrap: wrap;
@@ -455,7 +461,7 @@ img {
   margin-bottom: 72px;
 }
 .list-port {
-  list-style-type: none;
+  list-style: none;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
