@@ -376,11 +376,11 @@ list-style: none;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
 }
 .portfolio-item {
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
+  list-style: none;
 }
 .portfolio-box {
   padding: 32px 16px;
