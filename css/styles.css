@@ -58,6 +58,10 @@ img {
   list-style: none;
 }
 
+.menu-item {
+  list-style: none;
+}
+
 .contact-list {
   gap: 40px;
   display: flex;
