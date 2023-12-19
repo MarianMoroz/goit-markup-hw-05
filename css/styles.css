@@ -417,8 +417,10 @@ img {
 }
 
 .team-list {
+  background-color: var(--cloud);
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 .team-group {
   background: #fff;
