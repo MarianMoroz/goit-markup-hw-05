@@ -256,7 +256,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  text-align: center;
 }
 
 /* ------what are we doing------ */
@@ -322,6 +321,7 @@ img {
 }
 .team-box {
   padding: 32px 0;
+  text-align: center;
 }
 
 /* ------team------ */
@@ -334,6 +334,7 @@ img {
 }
 .logo-footer {
   color: var(--cloud);
+  
 }
 .text-footer {
   font-weight: 400;
@@ -412,6 +413,7 @@ img {
 .specials-list {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 
 .team-list {
@@ -429,12 +431,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  background-color: var(--white);
   margin-bottom: 8px;
-  text-align: center;
-  font-family: Roboto;
-  font-style: normal;
-  width: calc((100% - 72px) / 4);
 }
 .scroll-box {
   width: calc((100% - 72px) / 4);
