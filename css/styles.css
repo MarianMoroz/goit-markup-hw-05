@@ -62,7 +62,6 @@ img {
   gap: 40px;
   display: flex;
   align-items: center;
-  list-style: none;
 }
 .list-header-port {
   gap: 40px;
@@ -286,7 +285,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  list-style: none;
 }
 
 .team-group {
@@ -309,7 +307,6 @@ img {
 }
 .team-list {
   background-color: var(--cloud);
-  list-style: none;
 }
 .team-member {
   padding: 32px 16px;
@@ -321,7 +318,6 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  list-style: none;
 }
 .team-box {
   padding: 32px 0;
@@ -338,7 +334,6 @@ img {
 }
 .logo-footer {
   color: var(--cloud);
-  
 }
 .text-footer {
   font-weight: 400;
@@ -378,7 +373,6 @@ img {
 .portfolio-list {
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
-  list-style: none;
 }
 .portfolio-box {
   padding: 32px 16px;
@@ -424,7 +418,6 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  list-style: none;
 }
 .team-group {
   background: #fff;
