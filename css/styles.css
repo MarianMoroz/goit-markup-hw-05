@@ -62,7 +62,6 @@ img {
   gap: 40px;
   display: flex;
   align-items: center;
-  list-style: none;
 }
 .list-header-port {
   gap: 40px;
