@@ -286,6 +286,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  list-style: none;
+  display: flex;
 }
 
 .team-group {
@@ -417,10 +419,8 @@ img {
 }
 
 .team-list {
-  background-color: var(--cloud);
   display: flex;
   gap: 24px;
-  list-style: none;
 }
 .team-group {
   background: #fff;
