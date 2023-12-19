@@ -422,7 +422,6 @@ list-style: none;
   display: flex;
   gap: 24px;
   list-style: none;
-  text-align: center;
 }
 
 .team-group {
