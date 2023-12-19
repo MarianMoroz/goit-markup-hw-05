@@ -292,6 +292,7 @@ img {
   background-color: var(--white);
   flex-basis: calc((100% - 3 * 24px) / 4);
   border: #e7e9fc;
+  list-style: none;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -308,7 +309,6 @@ img {
 }
 .team-list {
   background-color: var(--cloud);
-  list-style: none;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
