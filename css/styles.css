@@ -148,6 +148,16 @@ img {
 .logo-link-footer {
   display: inline-block;
   margin-bottom: 16px;
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px
 }
 
 
