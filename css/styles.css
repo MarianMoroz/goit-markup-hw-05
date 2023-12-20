@@ -337,6 +337,8 @@ img {
 }
 .logo-footer {
   color: var(--cloud);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .text-footer {
   font-weight: 400;
