@@ -145,6 +145,11 @@ img {
   margin-right: 76px
   
 }
+.logo-link-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 
 .studiologo {
   color:var(--navy-blue);
@@ -337,8 +342,7 @@ img {
 }
 .logo-footer {
   color: var(--cloud);
-  display: inline-block;
-  margin-bottom: 16px;
+
 }
 .text-footer {
   font-weight: 400;
