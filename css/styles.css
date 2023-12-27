@@ -509,3 +509,19 @@ list-style: none;
   flex-wrap: wrap;
   row-gap: 48px;
 }
+/*-----ICONS LINKS-----*/
+.socials-list {
+display: flex;
+gap: 24px;
+align-items: center;
+justify-content: center;
+}
+.socials-item {
+
+}
+.socials-link {
+
+}
+.socials-icon {
+
+}
