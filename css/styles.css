@@ -215,8 +215,8 @@ img {
   width: 1440px;
   height: 600px;
   background-image: linear-gradient(
-   rgba(46, 47, 66, 0.70)
-   rgba(46, 47, 66, 0.70)
+   rgb(46, 47, 66)
+   rgb(46, 47, 66)
    );
 }
 .title {
