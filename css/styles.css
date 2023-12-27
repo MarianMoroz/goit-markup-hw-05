@@ -214,7 +214,7 @@ img {
   background-size: cover;
   width: 1440px;
   height: 600px;
-  background-image: linear-gradient(
+  background-image: -o-linear-gradient(
    rgb(46, 47, 66)
    rgb(46, 47, 66)
    );
