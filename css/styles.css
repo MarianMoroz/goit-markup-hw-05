@@ -213,8 +213,8 @@ img {
   background-image: url(../hero/hero-background.jpeg);
   width: 1440px;
   height: 600px;
-  flex-shrink: 0;
   background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 .title {
