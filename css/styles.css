@@ -217,8 +217,11 @@ img {
     ),
     url(../images/hero/hero-background.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 1440px;
   height: 600px;
+  margin: auto;
 
 }
 .title {
