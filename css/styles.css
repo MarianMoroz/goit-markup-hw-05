@@ -530,7 +530,8 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+color: #F4F4FD;
 }
 .socials-icon {
-
+fill: currentColor;
 }
