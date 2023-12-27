@@ -185,6 +185,9 @@ img {
 .menu-link:focus {
   color: var(--ocean);
 }
+.menu-link::after {
+  content: ;
+}
 .contacts {
   font-style: normal;
   list-style: none;
