@@ -536,6 +536,10 @@ color: #F4F4FD;
 .socials-link :focus {
   background-color: #404BBF;
 }
+.socials-link :hover .socials-icon {
+fill: #404BBF;
+}
+
 .socials-icon {
 fill: currentColor;
 }
