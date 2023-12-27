@@ -186,7 +186,7 @@ img {
   color: var(--ocean);
 }
 .menu-link::after {
-  content: ;
+  content: "";
 }
 .contacts {
   font-style: normal;
