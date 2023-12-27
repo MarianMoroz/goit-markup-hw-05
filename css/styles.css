@@ -211,7 +211,6 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: url(../hero/hero-background.jpeg);
-  background-image: linear-gradient( background: var(--GREY, rgba(46, 47, 66, 0.70)));
   background-size: cover;
   width: 1440px;
   height: 600px;
