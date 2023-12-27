@@ -215,7 +215,7 @@ img {
     rgba(46, 47, 66, 0.70), 
     rgba(46, 47, 66, 0.70)
     ),
-    url(../images/hero/hero-background.jpeg)   lightgray 0px -167.766px / 100% 139.922% no-repeat;
+    url(../images/hero/hero-background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
