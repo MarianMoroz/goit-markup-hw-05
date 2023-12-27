@@ -185,7 +185,7 @@ img {
 .menu-link:focus {
   color: var(--ocean);
 }
-.menu-link::after {
+.menu-link.active::after {
   content: "";
   display: block;
   width: 100%;
