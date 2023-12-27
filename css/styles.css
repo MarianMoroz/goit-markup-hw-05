@@ -214,6 +214,7 @@ img {
   background-size: cover;
   width: 1440px;
   height: 600px;
+  background-image: -o-linear-gradient(#2E2F42B2);
 }
 .title {
   font-weight: 700;
