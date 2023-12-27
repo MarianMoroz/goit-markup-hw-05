@@ -214,7 +214,10 @@ img {
   background-size: cover;
   width: 1440px;
   height: 600px;
-  background-image: -o-linear-gradient(#2E2F42B2);
+  background-image: linear-gradient(
+   rgba(46, 47, 66, 0.70)
+   rgba(46, 47, 66, 0.70)
+   );
 }
 .title {
   font-weight: 700;
