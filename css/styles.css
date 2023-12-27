@@ -192,6 +192,9 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404BBF;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
 }
 .contacts {
   font-style: normal;
