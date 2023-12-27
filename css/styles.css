@@ -215,9 +215,9 @@ img {
   width: 1440px;
   height: 600px;
   background-image: -o-linear-gradient(
-   rgb(46, 47, 66)
-   rgb(46, 47, 66)
-   );
+   rgba(46, 47, 66, 0.70);
+     rgba(46, 47, 66, 0.70));
+
 }
 .title {
   font-weight: 700;
