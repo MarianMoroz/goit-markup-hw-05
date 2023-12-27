@@ -532,6 +532,10 @@ align-items: center;
 justify-content: center;
 color: #F4F4FD;
 }
+.socials-link :hover
+.socials-link :focus {
+  background-color: #404BBF;
+}
 .socials-icon {
 fill: currentColor;
 }
