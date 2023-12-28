@@ -406,6 +406,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--cloud);
   max-width: 264px;
+  display: flex;
 }
 
 .logo link {
