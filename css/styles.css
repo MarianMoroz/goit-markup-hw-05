@@ -395,6 +395,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--cloud);
   max-width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer-subjekt {
   font-weight: 400;
@@ -534,6 +537,16 @@ align-items: center;
 justify-content: center;
 list-style: none;
 margin-top: 8px;
+}
+.footer-socials-list {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .socials-item {
 width: 40px;
