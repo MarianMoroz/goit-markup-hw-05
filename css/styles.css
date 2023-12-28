@@ -52,7 +52,6 @@ img {
 }
 
 .menu-list {
-
   display: flex;
   gap: 40px;
   color: #2e2f42;
@@ -187,6 +186,7 @@ img {
   color: var(--iris);
   display: block;
   padding: 24px 0 24px;
+  text-decoration: none;
 }
 .menu-link:hover,
 .menu-link:focus {
