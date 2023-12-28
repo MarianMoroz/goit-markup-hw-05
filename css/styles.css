@@ -43,9 +43,10 @@ body {
 }
 .social-media {
   width: 100%;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0px 15px;
+  max-width: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px;
 }
 img {
   display: block;
