@@ -464,6 +464,31 @@ list-style: none;
   border-top: none;
 }
 
+.portfolio-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  color: var(--CLOUD, #F4F4FD);
+  font-size: 16px;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  background: var(--IRIS, #4D5AE5);
+}
+
 /* ------footer------*/
 
 .btn-port {
