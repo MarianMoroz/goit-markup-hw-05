@@ -242,7 +242,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 1440px;
   height: 600px;
   flex-shrink: 0;
   margin: auto;
@@ -326,7 +325,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  padding: 32px;
+  padding: 40px 32px;
 }
 
 /* ------what are we doing------ */
