@@ -473,10 +473,13 @@ list-style: none;
   width: calc((100% - 48px) / 3);
   list-style: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 >>>>>>> parent of c2ceba1 (Update styles.css)
+=======
+>>>>>>> parent of 53785f0 (Update styles.css)
 }
 
 .portfolio-item:hover .overlay {
