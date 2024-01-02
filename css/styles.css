@@ -34,11 +34,14 @@ body {
   background: var(--white);
 }
 
-.footer-container {
+.container {
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0px 15px;
+}
+
+.footer-container {
   display: flex;
   align-items: baseline;
 }
