@@ -681,6 +681,7 @@ img {
 .modal {
   width: 408px;
   min-height: 584px;
+  padding: 24px;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
@@ -699,7 +700,16 @@ img {
 }
 
 .modal-btn-icon {
+  stroke: currentColor;
 }
 
 .modal-caption {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
