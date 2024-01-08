@@ -734,3 +734,7 @@ img {
   align-items: flex-start;
   gap: 10px;
 }
+
+.field {
+  margin-bottom: 20px;
+}
