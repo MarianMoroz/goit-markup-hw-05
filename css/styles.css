@@ -683,7 +683,7 @@ img {
   pointer-events: initial;
 }
 
-.modal {
+.modal-backdrop {
   width: 408px;
   min-height: 584px;
   padding: 72px 24px 24px 24px;
@@ -700,6 +700,8 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   border: 1px solid #0000001a;
   background-color: #e7e9fc;
@@ -735,6 +737,103 @@ img {
   gap: 10px;
 }
 
-.field {
-  margin-bottom: 20px;
+.modal-form {
+  margin-bottom: 8px;
+}
+.modal-field {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.modal-field-end {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  line-height: 1.17;
+  display: block;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-input {
+  height: 40px;
+  padding-left: 38px;
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  outline: transparent;
+}
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: transparent;
+  fill: #2e2f42;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Checkbox */
+.modal-agreement {
+  margin-bottom: 24px;
+}
+
+.modal-label-user-privacy {
+  color: #8e8f99;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.modal-span-user-privacy {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 16px;
+  height: 16px;
+  fill: transparent;
+
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-icon-checkbox {
+  opacity: 0;
+}
+
+.modal-form-input-checkbox:checked
+  + .modal-label-user-privacy
+  > .modal-span-user-privacy {
+  border: none;
+  fill: #f4f4fd;
+  background-color: #404bbf;
+}
+
+.checkbox-input:checked
+  + .modal-label-user-privacy
+  > .modal-span-user-privacy
+  > .modal-icon-checkbox {
+  opacity: 1;
+}
+
+.modal-link-privacy {
+  text-decoration-line: underline;
+  color: #4d5ae5;
 }
