@@ -462,17 +462,43 @@
       <p class="modal-caption">Leave your contacts and we will call you back</p>
       <form class="modal-form" name="reviews" autocomplete="on">
         <div class="field">
-          <label class="field-label" for="user-name">Name</label>
-          <div class="modal-field">
-            <input class="modal-input" id="user-name" name="user-name" type="text" minlength="3" required>
+          <label class="form-label" for="user-name">Name</label>
+          <div class="form-field">
+            <input
+            class="form-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+            minlength="3"
+            required>
+            <svg class="form-icon" width="" height="">
+              <use href=""></use>
+            </svg>
           </div>
           </div>
         <div class="field">
           <label for="user-number">Number</label>
-          <input id="user-number" name="user-number" type="tel"></div>
+          <div class="">
+            <input
+            class="form-input"
+            id="user-number"
+            name="user-number"
+            type="tel">
+            <svg class="" width="" height="">
+              <use href=""></use></svg>
+          </div>
+        </div>
         <div class="field">
           <label for="user-email">Email</label>
-          <input id="user-email" name="user-email" type="email"></div>
+          <div class="">
+            <input
+            class="form-input"
+            id="user-email"
+            name="user-email"
+            type="email"><svg class="" width="" height="">
+              <use href=""></use></svg>
+          </div>
+        </div>
         <input type="text">
         <div class="checkbox"><input id="user-email" name="user-email" type="checkbox">I accept the terms and conditions of the Privacy Policy</div>
         <button type="submit">Send form</button>
