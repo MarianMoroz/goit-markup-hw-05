@@ -891,7 +891,7 @@ img {
   background-color: #404bbf;
 }
 
-.checkbox-input:checked
+.modal-form-input-checkbox:checked
   + .modal-label-user-privacy
   > .modal-span-user-privacy
   > .modal-icon-checkbox {
