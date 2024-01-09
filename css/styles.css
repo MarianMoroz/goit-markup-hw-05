@@ -783,6 +783,13 @@ img {
   stroke: rgba(0, 0, 0, 0.1);
 }
 
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+
 .modal-caption {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
