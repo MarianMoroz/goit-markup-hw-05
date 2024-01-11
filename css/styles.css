@@ -498,7 +498,7 @@ img {
 }
 
 .footer-btn:hover,
-.footer-btn-btn:focus {
+z .footer-btn-btn:focus {
   background-color: #404bbf;
 }
 
