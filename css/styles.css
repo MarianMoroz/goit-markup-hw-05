@@ -880,6 +880,21 @@ z .footer-btn-btn:focus {
   margin-bottom: 24px;
 }
 
+.modal-form-input-checkbox:checked
+  + .modal-label-user-privacy
+  > .modal-span-user-privacy {
+  border: none;
+  fill: #f4f4fd;
+  background-color: #404bbf;
+}
+
+.modal-form-input-checkbox:checked
+  + .modal-label-user-privacy
+  > .modal-span-user-privacy
+  > .modal-icon-checkbox {
+  opacity: 1;
+}
+
 .modal-label-user-privacy {
   color: #8e8f99;
   letter-spacing: 0.04em;
@@ -906,21 +921,6 @@ z .footer-btn-btn:focus {
 
 .modal-icon-checkbox {
   opacity: 0;
-}
-
-.modal-form-input-checkbox:checked
-  + .modal-label-user-privacy
-  > .modal-span-user-privacy {
-  border: none;
-  fill: #f4f4fd;
-  background-color: #404bbf;
-}
-
-.modal-form-input-checkbox:checked
-  + .modal-label-user-privacy
-  > .modal-span-user-privacy
-  > .modal-icon-checkbox {
-  opacity: 1;
 }
 
 .modal-link-privacy {
